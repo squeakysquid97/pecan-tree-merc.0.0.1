@@ -6,8 +6,12 @@ function Navigation(props) {
         <div className="navigation">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
+                    <img
+                        class="navbar-brand"
+                        src="http://www.tuxpaint.org/stamps/stamps-thumbs/stamps/plants/trees/holm_oak.png"
+                    />
                     <Link class="navbar-brand" to="/">
-                        React Multi-Page Website
+                        Pecan Tree Mercentile
                     </Link>
                     <button
                         class="navbar-toggler"
@@ -30,6 +34,15 @@ function Navigation(props) {
                                 <Link class="nav-link" to="/">
                                     Home
                                     <span class="sr-only">(current)</span>
+                                </Link>
+                            </li>
+                            <li
+                                class={`nav-item  ${
+                                    props.location.pathname === "/about" ? "active" : ""
+                                    }`}
+                            >
+                                <Link class="nav-link" to="/about">
+                                    About
                                 </Link>
                             </li>
                             <li
