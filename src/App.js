@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, About, Contact } from "./components";
+import { Navigation, Footer, Home, About, Contact, Signup } from "./components";
+
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/about" exact component={() => <About />} />
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
+        <Signup ></Signup>
         <Footer />
       </Router>
     </div>
