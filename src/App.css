@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+  background: #b2dbbf;
+  max-width: 500px;
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +44,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel-header {
+  display: inline;
+  background-color: #343a40!important
+}
+
+.carousel-header-text {
+  padding-top: 50px;
+}
+
+.carousel-header-suggested {
+  padding-top: 25px;
+}
+
+.feed-carousel {
+  padding: 75px;
+}
+
+.feed-carousel-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.carousel-list-item {
+  padding: 15px;
+}
+
+.carousel-image {
+  width: 250px;
+  height: 200px;
 }

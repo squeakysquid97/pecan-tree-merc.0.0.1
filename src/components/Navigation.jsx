@@ -4,17 +4,17 @@ import { Link, withRouter } from "react-router-dom";
 function Navigation(props) {
     return (
         <div className="navigation">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container">
                     <img
-                        class="navbar-brand"
+                        className="navbar-brand"
                         src="http://www.tuxpaint.org/stamps/stamps-thumbs/stamps/plants/trees/holm_oak.png"
                     />
-                    <Link class="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/">
                         Pecan Tree Mercentile
                     </Link>
                     <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
                         data-target="#navbarResponsive"
@@ -22,35 +22,35 @@ function Navigation(props) {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto">
                             <li
-                                class={`nav-item ${
+                                className={`nav-item ${
                                     props.location.pathname === "/" ? "active" : ""
                                     }`}
                             >
-                                <Link class="nav-link" to="/">
+                                <Link className="nav-link" to="/">
                                     Home
-                                    <span class="sr-only">(current)</span>
+                                    <span className="sr-only">(current)</span>
                                 </Link>
                             </li>
                             <li
-                                class={`nav-item  ${
+                                className={`nav-item  ${
                                     props.location.pathname === "/about" ? "active" : ""
                                     }`}
                             >
-                                <Link class="nav-link" to="/about">
+                                <Link className="nav-link" to="/about">
                                     About
                                 </Link>
                             </li>
                             <li
-                                class={`nav-item  ${
+                                className={`nav-item  ${
                                     props.location.pathname === "/contact" ? "active" : ""
                                     }`}
                             >
-                                <Link class="nav-link" to="/contact">
+                                <Link className="nav-link" to="/contact">
                                     Contact
                                 </Link>
                             </li>
