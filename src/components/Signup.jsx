@@ -56,7 +56,7 @@ export default class Signup extends React.Component {
     }
   }
 
-  componentWillUpdate(nextProps, nextState) {
+  componentDidUpdate(nextProps, nextState) {
     localStorage.setItem("user", JSON.stringify(nextState));
   }
 
