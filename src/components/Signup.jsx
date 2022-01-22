@@ -37,7 +37,7 @@ export default class Signup extends React.Component {
     this.onCloseModal();
     console.log(localStorage);
     axios
-      .post("https://reqres.in/api/products/3", data)
+      .post("localhost:3306", data)
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
   }
