@@ -4,7 +4,7 @@ import { Modal } from "react-responsive-modal";
 import axios from "axios";
 
 export default class Signup extends React.Component {
-  userData;
+  userData; 
 
   constructor(props) {
     super(props);
@@ -31,15 +31,16 @@ export default class Signup extends React.Component {
 
   onSubmit(e) {
     const data = {
-      email: this.state.email,
-    };
+      user: this.state.user,
+    }; 
+  //console.log(res.status);
     e.preventDefault();
     this.onCloseModal();
     console.log(localStorage);
     axios
-      .post("localhost:3306", data)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      .post("https://web103.dnchosting.com:2083/cpsess6523868015/3rdparty/phpMyAdmin/sql.php?server=1&db=teenfif4_PTMmailist&table=ptmmaillist&pos=0", data)
+      //.then((res) => console.log(res))
+      //.catch((err) => console.log(err));
   }
 
   componentDidMount() {
