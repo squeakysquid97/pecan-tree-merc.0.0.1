@@ -13,6 +13,12 @@
   }
 }
 
+.navigation {
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +34,9 @@
   color: #61dafb;
 }
 
+.navbar-brand {
+  width: 100px;
+}
 .customOverlay {
   background: rgba(36, 123, 160, 0.7);
 }
@@ -48,15 +57,11 @@
 
 .carousel-header {
   display: inline;
-  background-color: #343a40!important
+  background-color: #343a40 !important;
 }
 
 .carousel-header-text {
-  padding-top: 50px;
-}
-
-.carousel-header-suggested {
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 .feed-carousel {
@@ -77,4 +82,8 @@
 .carousel-image {
   width: 250px;
   height: 200px;
+}
+
+.py-5 {
+  padding: 1rem;
 }

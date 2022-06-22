@@ -6,8 +6,9 @@ function Home() {
       <div className="container">
         <div className="carousel-header">
           <h1 className="carousel-header-text">
-            Welcome to Pecan Tree Mercentile
+            Welcome to Pecan Tree Mercantile
           </h1>
+          <p>Online Sellers of Quality Goods</p>
           <h2 className="carousel-header-suggested">Suggested Items</h2>
         </div>
         <div className="feed-carousel">
