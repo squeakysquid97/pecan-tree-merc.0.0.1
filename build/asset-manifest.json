@@ -1,25 +1,14 @@
 {
   "files": {
-    "main.css": "/pecan-tree-merc.0.0.1/static/css/main.7bda77ac.chunk.css",
-    "main.js": "/pecan-tree-merc.0.0.1/static/js/main.a7186a85.chunk.js",
-    "main.js.map": "/pecan-tree-merc.0.0.1/static/js/main.a7186a85.chunk.js.map",
-    "runtime-main.js": "/pecan-tree-merc.0.0.1/static/js/runtime-main.90d442f7.js",
-    "runtime-main.js.map": "/pecan-tree-merc.0.0.1/static/js/runtime-main.90d442f7.js.map",
-    "static/css/2.257f4af1.chunk.css": "/pecan-tree-merc.0.0.1/static/css/2.257f4af1.chunk.css",
-    "static/js/2.e273e501.chunk.js": "/pecan-tree-merc.0.0.1/static/js/2.e273e501.chunk.js",
-    "static/js/2.e273e501.chunk.js.map": "/pecan-tree-merc.0.0.1/static/js/2.e273e501.chunk.js.map",
+    "main.css": "/pecan-tree-merc.0.0.1/static/css/main.a6995957.css",
+    "main.js": "/pecan-tree-merc.0.0.1/static/js/main.48466dca.js",
+    "static/media/backgroundPhoto.jpeg": "/pecan-tree-merc.0.0.1/static/media/backgroundPhoto.7a5e6d91c15b7e74d16c.jpeg",
     "index.html": "/pecan-tree-merc.0.0.1/index.html",
-    "precache-manifest.7c1d033a61bdf7dc4346789471d6c35e.js": "/pecan-tree-merc.0.0.1/precache-manifest.7c1d033a61bdf7dc4346789471d6c35e.js",
-    "service-worker.js": "/pecan-tree-merc.0.0.1/service-worker.js",
-    "static/css/2.257f4af1.chunk.css.map": "/pecan-tree-merc.0.0.1/static/css/2.257f4af1.chunk.css.map",
-    "static/css/main.7bda77ac.chunk.css.map": "/pecan-tree-merc.0.0.1/static/css/main.7bda77ac.chunk.css.map",
-    "static/js/2.e273e501.chunk.js.LICENSE.txt": "/pecan-tree-merc.0.0.1/static/js/2.e273e501.chunk.js.LICENSE.txt"
+    "main.a6995957.css.map": "/pecan-tree-merc.0.0.1/static/css/main.a6995957.css.map",
+    "main.48466dca.js.map": "/pecan-tree-merc.0.0.1/static/js/main.48466dca.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.90d442f7.js",
-    "static/css/2.257f4af1.chunk.css",
-    "static/js/2.e273e501.chunk.js",
-    "static/css/main.7bda77ac.chunk.css",
-    "static/js/main.a7186a85.chunk.js"
+    "static/css/main.a6995957.css",
+    "static/js/main.48466dca.js"
   ]
 }
