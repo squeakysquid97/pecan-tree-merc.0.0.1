@@ -57,7 +57,7 @@
 .home,
 .about,
 .contact {
-  background-image: url("./public/backgroundPhoto.jpeg");
+  background-image: url("./backgroundPhoto.jpeg");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
