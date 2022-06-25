@@ -15,7 +15,7 @@ function Home() {
               target="_blank"
               rel="noopener"
             >
-              <img className="w-25" src="/amazonBtn.png" alt="" />
+              <img className="w-25" src={require("./amazonBtn.png")} alt="" />
             </a>
           </div>
         </div>

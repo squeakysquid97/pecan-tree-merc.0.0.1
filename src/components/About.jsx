@@ -8,7 +8,7 @@ function About() {
           <div className="col-lg-6">
             <img
               className="img-fluid rounded mb-4 mb-lg-0"
-              src="./About.jpg"
+              src={require("./about.jpg")}
               alt=""
             />
           </div>
