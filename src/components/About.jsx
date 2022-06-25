@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="about">
-      <div className="container">
+      <div className="container d-flex justify-content-center align-items-center h-100">
         <div className="row align-items-center my-5">
           <div className="col-lg-6">
             <img
