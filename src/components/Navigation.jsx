@@ -6,7 +6,7 @@ function Navigation(props) {
     <div className="navigation">
       <nav className="navbar navbar-expand-lg navbar-light bg-light text-black">
         <div className="container">
-          <img className="navbar-brand" src="./Logo.png" />
+          <img className="navbar-brand" src="Logo.png" />
           <Link className="navbar-brand navbar-title" to="/">
             Pecan Tree Mercantile
           </Link>
