@@ -63,3 +63,12 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
+@media (max-width: 600px) {
+  .navbar-title {
+    display: none;
+  }
+  .navbar-brand {
+    width: 150px;
+  }
+}
