@@ -12,7 +12,7 @@ function Contact() {
               alt=""
             />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 text-white">
             <h1 className="font-weight-light">Contact</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
