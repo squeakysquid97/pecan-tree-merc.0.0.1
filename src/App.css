@@ -57,17 +57,18 @@
 .home,
 .about,
 .contact {
-  background-image: url("/public/backgroundPhoto.jpeg");
+  background-image: url("https://dsm01pap003files.storage.live.com/y4m521JeH4XTyzP06KTuyWNxMwuM7HjEUKskxhZl7PrhEQiTXkW7xvE4N-sJdOSXesGVcj8dycBPUUOzYZzUCLw3bJnmcSU5SniS1zUnJgMcO9MRxoqNcffQbg-RrP-sBFa09pWTPxITmEz8q05gYo1vMoPmsCSPTMory1n-L0XvQJaKIrhZ_WqsisLEG6aYgdm?width=2048&height=1152&cropmode=none");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
-/* 
+
+@media (max-size: 600px) {
   .navbar-title {
     display: none;
   }
   .navbar-brand {
     width: 150px;
   }
-} */
+}

@@ -6,7 +6,10 @@ function Navigation(props) {
     <div className="navigation">
       <nav className="navbar navbar-expand-lg navbar-light bg-light text-black">
         <div className="container">
-          <img className="navbar-brand" src={require("./Logo.png")} />
+          <img
+            className="navbar-brand"
+            src="https://dsm01pap003files.storage.live.com/y4mqmacusd8rOd8eWfngaYz-YHBKcn8-ssDTaHGzRytX7VuysNiobLz22C9Y76xBEJpAz8NGuk_yO8mQBSDeVE5twmbkBy6mHHeoREfGhPxyBM-rloHvCWrdXrWzzm89SqZ7cvE84TcBY_wCOiAOpjmQHE3CvSvhOZdNtVMNEJNBJ-b21jg7UPJxNmceOr75Pcc?width=360&height=145&cropmode=none"
+          />
           <Link className="navbar-brand navbar-title" to="/">
             Pecan Tree Mercantile
           </Link>

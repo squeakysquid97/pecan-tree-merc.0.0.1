@@ -1,8 +1,8 @@
 {
   "name": "react-multi-page-website",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://squeakysquid97.github.io/pecan-tree-merc.0.0.1/",
+  "private": false,
+  "homepage": "https://squeakysquid97.github.io/pecan-tree-merc.0.0.1/home",
   "dependencies": {
     "@pnp/graph": "^2.0.7",
     "@pnp/sp": "^2.0.7",
