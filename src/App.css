@@ -8,6 +8,15 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(234, 231, 231);
+  text-decoration: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -57,18 +66,54 @@
 .home,
 .about,
 .contact {
-  background-image: url("/public/backgroundPhoto.jpeg");
+  background-image: url("https://dsm01pap003files.storage.live.com/y4m521JeH4XTyzP06KTuyWNxMwuM7HjEUKskxhZl7PrhEQiTXkW7xvE4N-sJdOSXesGVcj8dycBPUUOzYZzUCLw3bJnmcSU5SniS1zUnJgMcO9MRxoqNcffQbg-RrP-sBFa09pWTPxITmEz8q05gYo1vMoPmsCSPTMory1n-L0XvQJaKIrhZ_WqsisLEG6aYgdm?width=2048&height=1152&cropmode=none");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-@media screen and (max-width: 480px) {
+.blurb {
+  backdrop-filter: blur(5px);
+  background-color: rgb(227, 227, 227, 0.4);
+  height: 50%;
+  padding: 5%;
+}
+
+.blurb p {
+  font-size: 18px;
+}
+
+.contact-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact-list li {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
   .navbar-title {
     display: none;
   }
   .navbar-brand {
     width: 150px;
+  }
+  .blurb {
+    font-size: 14px;
+    backdrop-filter: none;
+    background-color: transparent;
+  }
+  .amz-button {
+    width: 50% !important;
+  }
+  .container-header h2 {
+    font-size: 16px;
+  }
+  .container-blur {
+    backdrop-filter: blur(5px);
+    background-color: rgb(227, 227, 227, 0.4);
   }
 }
