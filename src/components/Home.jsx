@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-      <div className="container d-flex justify-content-center align-items-center h-75 text-white">
+      <div className="container d-flex justify-content-center align-items-center h-75">
         <div className="container-header">
           <h1 className="container-header-text">
             Welcome to Pecan Tree Mercantile
