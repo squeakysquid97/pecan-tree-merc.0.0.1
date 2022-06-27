@@ -2,7 +2,7 @@
   "name": "ptm-0.0.1",
   "version": "0.1.0",
   "private": false,
-  "homepage": "",
+  "homepage": ".",
   "dependencies": {
     "@pnp/graph": "^2.0.7",
     "@pnp/sp": "^2.0.7",
