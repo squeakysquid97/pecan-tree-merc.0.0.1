@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 
 function Navigation(props) {
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
   return (
     <div className="navigation">
       <nav className="navbar navbar-expand-lg navbar-light bg-light text-black">
@@ -16,16 +21,23 @@ function Navigation(props) {
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="expand"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="true"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
             aria-label="Toggle navigation"
-            id="navbarToggleExternalContent"
+            onClick={handleToggle}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
+          <div
+            className={
+              isActive
+                ? "collapse navbar-collapse"
+                : "collapse.show  navbar-collapse"
+            }
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav ml-auto">
               <li
                 className={`nav-item ${

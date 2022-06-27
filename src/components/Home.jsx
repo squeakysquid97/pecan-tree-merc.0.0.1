@@ -16,7 +16,7 @@ function Home() {
               rel="noopener"
             >
               <img
-                className="w-25"
+                className="w-25 amz-button"
                 src="https://dsm01pap003files.storage.live.com/y4mapx3BKEJH0hslFMwlbvYcVISFDA65AIwFmIYsd9BzHcmI_F-AGcAhd5kTRJc-Sv2upWHSAiYmc24V5ydN02LtaHWTf1UUj8ZdBQW2ZuNeleYeRODYZ8hKL1JqN0rdk3cJh7_E0cdXcXGf7kfEYzZnXTG3XiHE_81EWSRrMpJcl2MjOYOYNr8B34wpFMJndRs?width=820&height=454&cropmode=none"
                 alt=""
               />

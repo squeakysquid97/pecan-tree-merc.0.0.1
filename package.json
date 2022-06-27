@@ -2,7 +2,7 @@
   "name": "ptm-0.0.1",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://squeakysquid97.github.io/pecan-tree-merc.0.0.1/",
+  "homepage": "",
   "dependencies": {
     "@pnp/graph": "^2.0.7",
     "@pnp/sp": "^2.0.7",
@@ -10,7 +10,9 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
     "react": "^16.13.1",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^16.13.1",
     "react-responsive-modal": "^5.0.2",
     "react-router-dom": "^5.2.0",

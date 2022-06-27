@@ -94,11 +94,26 @@ a:hover {
   font-size: 18px;
 }
 
-@media (max-size: 600px) {
+@media (max-width: 600px) {
   .navbar-title {
     display: none;
   }
   .navbar-brand {
     width: 150px;
+  }
+  .blurb {
+    font-size: 14px;
+    backdrop-filter: none;
+    background-color: transparent;
+  }
+  .amz-button {
+    width: 50% !important;
+  }
+  .container-header h2 {
+    font-size: 16px;
+  }
+  .container-blur {
+    backdrop-filter: blur(5px);
+    background-color: rgb(227, 227, 227, 0.4);
   }
 }
