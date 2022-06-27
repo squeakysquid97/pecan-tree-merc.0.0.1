@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pecan-tree-merc.0.0.1/static/css/main.bb0d41fe.css",
-    "main.js": "/pecan-tree-merc.0.0.1/static/js/main.1f54f296.js",
+    "main.css": "/pecan-tree-merc.0.0.1/static/css/main.6061163f.css",
+    "main.js": "/pecan-tree-merc.0.0.1/static/js/main.e45a6284.js",
     "index.html": "/pecan-tree-merc.0.0.1/index.html",
-    "main.bb0d41fe.css.map": "/pecan-tree-merc.0.0.1/static/css/main.bb0d41fe.css.map",
-    "main.1f54f296.js.map": "/pecan-tree-merc.0.0.1/static/js/main.1f54f296.js.map"
+    "main.6061163f.css.map": "/pecan-tree-merc.0.0.1/static/css/main.6061163f.css.map",
+    "main.e45a6284.js.map": "/pecan-tree-merc.0.0.1/static/js/main.e45a6284.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0d41fe.css",
-    "static/js/main.1f54f296.js"
+    "static/css/main.6061163f.css",
+    "static/js/main.e45a6284.js"
   ]
 }
