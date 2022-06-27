@@ -5,7 +5,7 @@ function About() {
     <div className="about">
       <div className="container d-flex justify-content-center align-items-center h-100">
         <div className="row align-items-center my-5">
-          <div className="col-lg-5  text-white">
+          <div className="col-lg-5 blurb rounded">
             <h1 className="font-weight-light">About</h1>
             <p className="text-left">
               Pecan Tree Mercantile is a family-owned and family-operated online

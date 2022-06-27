@@ -8,6 +8,15 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(234, 231, 231);
+  text-decoration: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -62,6 +71,27 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+.blurb {
+  backdrop-filter: blur(5px);
+  background-color: rgb(227, 227, 227, 0.4);
+  height: 50%;
+  padding: 5%;
+}
+
+.blurb p {
+  font-size: 18px;
+}
+
+.contact-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact-list li {
+  text-decoration: none;
+  font-size: 18px;
 }
 
 @media (max-size: 600px) {

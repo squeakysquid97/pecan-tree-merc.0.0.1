@@ -12,14 +12,25 @@ function Contact() {
               alt=""
             />
           </div>
-          <div className="col-lg-5 text-white">
-            <h1 className="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+          <div className="col-lg-5  blurb rounded ">
+            <h1 className="font-weight-light">Contact Us</h1>
+            <ul className="contact-list text-left">
+              <li>
+                Phone : <a href="tel:6827032863">+1 (682) 703-2863</a>{" "}
+              </li>
+              <li>
+                Email :{" "}
+                <a href="mailto:csr@pecantreemercantile.com">
+                  csr@pecantreemercantile.com
+                </a>
+              </li>
+              <li>
+                Address:{" "}
+                <a href="https://goo.gl/maps/3jCNbkCREVijDffh6" target="_blank">
+                  5316 Trail Lake Dr Fort Worth, TX 76133
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
